@@ -1,0 +1,26 @@
+GET http://localhost:3001/api/notes
+
+###
+GET http://localhost:3001/api/phones/1
+
+###
+DELETE http://localhost:3001/api/phones/1
+
+###
+POST http://localhost:3001/api/person
+Content-Type: application/json
+
+{
+    "name":"li-yun-peng",
+    "number":111111
+}
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "VS is good",
+    "important": false
+}
+
